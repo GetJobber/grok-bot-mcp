@@ -1,0 +1,14 @@
+{
+  "name": "jobber",
+  "version": "0.1.0",
+  "description": "Connect Cursor and Grok Bot to Jobber through Jobber's hosted MCP server.",
+  "author": {
+    "name": "Jobber"
+  },
+  "homepage": "https://getjobber.com",
+  "repository": "https://github.com/GetJobber/grok-bot-mcp",
+  "license": "MIT",
+  "keywords": ["jobber", "mcp", "cursor", "grok-bot"],
+  "logo": "assets/logo.png",
+  "mcpServers": "./mcp.json"
+}
