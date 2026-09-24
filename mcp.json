@@ -1,9 +1,23 @@
 {
-  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
   "mcpServers": {
     "jobber": {
       "type": "http",
-      "url": "https://mcp.getjobber.com/mcp"
+      "url": "https://mcp.getjobber.com/mcp",
+      "auth": {
+        "CLIENT_ID": "03e0b3e1-ed1f-47a6-9361-909f2bd30d73",
+        "CLIENT_SECRET": "${JOBBER_CLIENT_SECRET}",
+        "scopes": [
+          "mcp:read_clients",
+          "mcp:write_clients",
+          "mcp:read_requests",
+          "mcp:write_requests",
+          "mcp:read_quotes",
+          "mcp:write_quotes",
+          "mcp:read_jobs",
+          "mcp:read_invoices",
+          "mcp:read_visits"
+        ]
+      }
     }
   }
 }

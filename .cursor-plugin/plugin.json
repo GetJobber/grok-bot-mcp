@@ -1,14 +1,24 @@
 {
   "name": "jobber",
-  "version": "0.1.0",
-  "description": "Connect Cursor and Grok Bot to Jobber through Jobber's hosted MCP server.",
+  "displayName": "Jobber",
+  "version": "1.0.0",
+  "description": "Connect Cursor and Grok Bot to Jobber via MCP (clients, requests, quotes, jobs, invoices, visits).",
   "author": {
     "name": "Jobber"
   },
-  "homepage": "https://getjobber.com",
-  "repository": "https://github.com/GetJobber/grok-bot-mcp",
   "license": "MIT",
-  "keywords": ["jobber", "mcp", "cursor", "grok-bot"],
-  "logo": "assets/logo.png",
-  "mcpServers": "./mcp.json"
+  "keywords": ["jobber", "mcp", "field-service"],
+  "category": "integrations",
+  "mcpServers": "./mcp.json",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "JOBBER_CLIENT_SECRET": {
+        "type": "string",
+        "title": "Jobber OAuth client secret",
+        "description": "Client secret for the Jobber Cursor OAuth app. Set under Plugins → Configure; never commit it."
+      }
+    },
+    "required": ["JOBBER_CLIENT_SECRET"]
+  }
 }
