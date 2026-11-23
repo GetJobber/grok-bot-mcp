@@ -5,7 +5,6 @@
       "url": "https://mcp.getjobber.com/mcp",
       "auth": {
         "CLIENT_ID": "5a4183f9-9971-4715-866b-15d01c1cf78c",
-        "CLIENT_SECRET": "1705e74d73d7f39dc87889bfa61352c05a6a147eecffa8150132728444eca7e2",
         "scopes": [
           "mcp:read_clients",
           "mcp:write_clients",
