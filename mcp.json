@@ -3,19 +3,6 @@
     "jobber": {
       "type": "http",
       "url": "https://mcp.getjobber.com/mcp",
-      "auth": {
-        "scopes": [
-          "mcp:read_clients",
-          "mcp:write_clients",
-          "mcp:read_requests",
-          "mcp:write_requests",
-          "mcp:read_quotes",
-          "mcp:write_quotes",
-          "mcp:read_jobs",
-          "mcp:read_invoices",
-          "mcp:read_visits"
-        ]
-      }
     }
   }
 }
