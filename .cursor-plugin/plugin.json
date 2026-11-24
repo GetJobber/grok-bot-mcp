@@ -10,16 +10,4 @@
   "keywords": ["jobber", "mcp", "field-service"],
   "category": "integrations",
   "logo": "assets/logo.png",
-  "mcpServers": "./mcp.json",
-  "variables": {
-    "type": "object",
-    "properties": {
-      "JOBBER_CLIENT_SECRET": {
-        "type": "string",
-        "title": "Jobber OAuth client secret",
-        "description": "Client secret for the Jobber Cursor OAuth app. Set under Plugins → Configure; never commit it."
-      }
-    },
-    "required": ["JOBBER_CLIENT_SECRET"]
-  }
-}
+"mcpServers": "./mcp.json"
