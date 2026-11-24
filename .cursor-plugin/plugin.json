@@ -9,6 +9,7 @@
   "license": "MIT",
   "keywords": ["jobber", "mcp", "field-service"],
   "category": "integrations",
+  "logo": "assets/logo.png",
   "mcpServers": "./mcp.json",
   "variables": {
     "type": "object",
