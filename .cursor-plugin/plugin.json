@@ -10,4 +10,5 @@
   "keywords": ["jobber", "mcp", "field-service"],
   "category": "integrations",
   "logo": "assets/logo.png",
-"mcpServers": "./mcp.json"
+ "mcpServers": "./mcp.json"
+}
